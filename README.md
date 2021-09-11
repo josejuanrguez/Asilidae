@@ -6,5 +6,5 @@ It was tested on MX Linux and Lubuntu and it works perfectly.
 
 There is no payload so you can test it safely.
 
-It uses standard Linux tools, like cat, sed, head, tail and openssl so they have to be installed in your system if you want to see the virus working.
+It uses standard Linux tools like cat, sed, head, tail and openssl so they have to be installed in your system if you want to see the virus working.
 
