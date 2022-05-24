@@ -8,7 +8,7 @@ This is Asilidae. It's a bash (unix shell) encrypted, mutant and polymorphic vir
 
 # But...why?
 
-I am passionate about computer virus and similar codes that perform some biological-like behaviour. Many people have never seen a virus working and this an educational example of virus that you can test easily and safely in your computer if you want to see a virus working.
+I am passionate about computer virus and similar codes that perform some biological-like behaviour. Many people have never seen a virus working and this an educational example of virus that you can test easily and safely in your computer if you want to see a virus working. It tries to emulate those polymorphic/encrypted viruses that were created in the 90s that still amaze me.
 
 ## Does it work?
 
