@@ -6,6 +6,10 @@ Hi!
 
 This is Asilidae. It's a bash (unix shell) encrypted, mutant and polymorphic virus that can infect bash files in the same working directory where it is located. The code in each generation changes more than 80 percent.
 
+# But...why?
+
+I am passionate about computer virus and similar codes that perform some biological-like behaviour. Many people have never seen a virus working and this an educational example of virus that you can test easily and safely in your computer if you want to see a virus working.
+
 ## Does it work?
 
 Yes, it does. It was tested on MX Linux and Lubuntu and it works perfectly.
