@@ -1,4 +1,6 @@
-# Asilidae
+# _Asilidae_
+
+## What is Asilidae?
 
 Hi!
 
@@ -10,3 +12,24 @@ There is no payload so you can test it safely.
 
 It uses standard Linux tools like cat, sed, head, tail and openssl so they have to be installed in your system if you want to see the virus working.
 
+## Dependency
+
+Asilidae depends on some of the standard linux tools like head, tail, cat, sed and openssl.
+
+## Testing the mutation engine.
+
+Let's create two simple identical bait files. We will call them "hello1" and "hello2".
+
+``` js
+#!/bin/bash
+echo "Hello World!"
+```
+
+We proceed to infect them and check for the diferences between them:
+
+```
+$ diffpercent hello1 hello2
+hello1 hello2 81.97
+```
+As you can see, from two identical files we get two files with the same size that differs in a 81.97% before the infection. 
+    
