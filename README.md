@@ -16,7 +16,7 @@ Yes, it does. It was tested on MX Linux and Lubuntu and it works perfectly.
 
 ## Is it safe to test?
 
-There is no payload so you can test it safely. Anyway remember that this is a relf-replicate code so any bug becomes an interesting a brand-new feature.
+There is no payload so you can test it safely. Anyway remember that this is a relf-replicating code so any bug becomes an interesting a brand-new feature.
 
 ## Dependency
 
