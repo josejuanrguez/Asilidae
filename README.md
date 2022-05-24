@@ -8,13 +8,13 @@ This is Asilidae. It's a bash (unix shell) encrypted, mutant and polymorphic vir
 
 It was tested on MX Linux and Lubuntu and it works perfectly.
 
-There is no payload so you can test it safely.
+## Is it safe to test?
 
-It uses standard Linux tools like cat, sed, head, tail and openssl so they have to be installed in your system if you want to see the virus working.
+There is no payload so you can test it safely. Anyway remember that this is a relf-replicant code so any bug becomes an interesting a brand-new feature.
 
 ## Dependency
 
-Asilidae depends on some of the standard linux tools like head, tail, cat, sed and openssl.
+It uses standard Linux tools like cat, sed, head, tail and openssl so they have to be installed in your system if you want to see the virus working.
 
 ## Testing the mutation engine.
 
