@@ -39,3 +39,10 @@ hello1 hello2 81.97
 ```
 As you can see, from two identical files we get two files with the same size that differs in a 81.97% before the infection. 
     
+## Hey, wouldn't it be better if you <put your advice, suggestion, whatever...here>?
+
+I know i can improve the code a lot in many ways. This won't be the last version of this code and I will be pleased to read your suggestions in order to improve it.
+
+Thank you very much for your attention.
+
+
