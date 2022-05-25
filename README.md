@@ -37,7 +37,7 @@ We proceed to infect them and check for the diferences between them:
 $ diffpercent hello1 hello2
 hello1 hello2 81.97
 ```
-As you can see, from two identical files we get two files with the same size that differs in a 81.97% before the infection. 
+As you can see, from two identical files we get two functional files with the same size that differs in a 81.97% before the infection. 
     
 ## Hey, wouldn't it be better if you <put your advice, suggestion, whatever...here>?
 
