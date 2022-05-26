@@ -41,7 +41,7 @@ As you can see, from two identical files we get two functional files with the sa
     
 ## Hey, wouldn't it be better if you <put your advice, suggestion, whatever...here>?
 
-I know I can improve the code a lot in many ways but keep in mind that my objective is keeping the code as simple as any person can understand it. Anyway, if you have any suggestions, I'd be pleased to know it.
+I know I can improve the code a lot in many ways but keep in mind that my objective is keeping the code as simple as any person can understand it. Anyway, if you have any suggestions, I'd be pleased to know them.
 
 
 Thank you very much for your attention.
